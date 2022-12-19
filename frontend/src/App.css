@@ -1,0 +1,362 @@
+ main {
+   min-height: 100vh;
+   margin-top: 5rem;
+ }
+
+ body {
+   align-items: center;
+
+
+ }
+
+ /* HOMEPAGE */
+ .carosel1 {
+
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   flex-wrap: wrap;
+   height: 90vh;
+   width: 100%;
+
+
+ }
+
+ .image1 {
+   width: 100%;
+   height: 100%;
+ }
+
+ .register {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   margin-top: 0rem;
+   height: 100vh;
+   padding: 2rem;
+   gap: 2vh;
+ }
+
+ .btn {
+   background-color: black;
+   color: white;
+ }
+
+
+ .login {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 1rem;
+   padding: 1rem;
+   gap: 2vh;
+   width: 600px;
+   border: 1px solid black;
+   margin: 3rem auto;
+   border-radius: 2rem;
+ }
+
+ .login input {
+   width: 100%;
+   border-radius: 6px;
+   padding: 0.5rem;
+ }
+
+ .login button {
+   width: 100%;
+   border-radius: 6px;
+   padding: 0.5rem;
+ }
+
+
+
+
+ .jago {
+
+   color: blue;
+   width: 600px;
+   border-radius: 1rem;
+   margin-top: 1rem;
+   font-size: 4rem;
+
+
+ }
+
+
+ .input {
+   border: 1px solid black;
+   width: 600px;
+   border-radius: 1rem;
+   margin-left: 20rem;
+   margin-top: 3rem;
+   padding-bottom: 3rem;
+   background-color: white;
+ }
+
+
+ .card-img-top {
+   height: 20rem !important;
+ }
+
+ div.card-body {
+   background-color: black;
+   color: white;
+
+ }
+
+ div.card {
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+
+ }
+
+
+
+
+ .productpage img {
+   width: 50%;
+   height: 33rem;
+ }
+
+ .productpage h1 {
+   font-size: 2rem;
+   text-transform: uppercase;
+
+ }
+
+ .productpage h3 {
+   font-size: 3rem;
+   color: navy;
+   margin-top: -.5rem;
+   margin-bottom: -.5rem;
+ }
+
+ .productpage p {
+   text-align: start;
+   font-size: 1.3rem;
+
+ }
+
+ .productpage {
+   display: flex;
+   justify-content: space-between;
+   gap: 2rem;
+
+ }
+
+ .productpage .product-details {
+   width: 50%;
+   margin-top: 1rem;
+ }
+
+
+ @media(max-width: 768px) {
+   .productpage {
+     flex-direction: column;
+   }
+
+   .productpage img {
+     width: 100%
+   }
+ }
+
+
+ #product {
+   background-color: black;
+   color: white;
+   margin-left: 2rem;
+   margin-top: 1rem;
+   padding: 1rem
+ }
+
+
+
+ #button {
+   justify-content: center;
+   width: 30%;
+   margin-top: 1rem;
+
+ }
+
+ .login-register {
+   display: flex;
+
+ }
+
+ .login-register a {
+   width: 50%;
+   text-align: center;
+   background-color: navy;
+   color: white;
+   margin-top: .5rem;
+   font-size: 1.6rem;
+   padding: .5rem;
+   text-decoration: none;
+ }
+
+ .login-register .block {
+   background-color: navy;
+   color: white;
+   border: 1px solid navy;
+ }
+
+
+ .login-register .outline {
+   background-color: white;
+   color: navy;
+ }
+
+
+ .login input {
+   margin-bottom: 1rem;
+ }
+
+ .two {
+   font-size: 1.3 rem;
+   border-radius: 50%;
+   background-color: blue;
+ }
+
+ .category-sidebar {
+   width: 15%;
+   background-color: black;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 100%;
+   position: fixed;
+   z-index: 4;
+
+ }
+
+ .category-sidebar a:first-child {
+   margin-top: 4rem;
+ }
+
+ .category-sidebar a {
+   color: white;
+   text-decoration: none;
+   padding: 2px 0;
+   font-size: 1.2rem;
+   width: 100%;
+   text-align: center;
+ }
+
+ .category-sidebar a:hover {
+   color: blue;
+   text-decoration: none;
+   padding: 2px 0;
+   font-size: 1.2rem;
+   width: 100%;
+   text-align: center;
+ }
+
+ .category-toggler {
+   cursor: pointer;
+ }
+
+ .categorypage {
+   display: flex;
+   gap: 1rem;
+   padding: .5rem;
+ }
+
+ .category-items {
+   flex: 3;
+ }
+
+ .category-total {
+   flex: 1;
+   box-shadow: 1px 1px 1px 1px gray;
+   padding: 1rem;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: space-around;
+   height: 10rem;
+ }
+
+
+ .categorypage img {
+   height: 5rem;
+   width: 7rem;
+   border-radius: 1rem;
+ }
+
+ .categorypage .fa-trash-alt {
+   color: red;
+   font-size: 1.5rem;
+   cursor: pointer;
+ }
+
+ @media(max-width : 1200px) {
+   .categorypage {
+     flex-direction: column;
+   }
+ }
+
+
+
+ .dashboard .card {
+   margin: 2rem 0;
+   height: 12rem;
+ }
+
+ a {
+   text-decoration: none;
+ }
+
+
+ .category {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100;
+ }
+
+ .add {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ /* Add-product page */
+ .product-form {
+   border: 1px solid grey;
+   position: relative;
+   top: 140px;
+   width: 900px;
+ }
+
+ .form-control {
+   width: 600px;
+   border-radius: 1rem;
+   padding: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 8px;
+ }
+
+ #jago {
+   background-color: rgba(0, 0, 255, 0.6);
+   color: white;
+   width: 9rem;
+   margin-top: 2rem;
+   margin-bottom: 1rem;
+   border-radius: 1rem;
+   padding: 10px;
+   border: none
+ }
+
+ ;
+ /* checkout style */
+
+ .forms {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
